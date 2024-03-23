@@ -29,7 +29,7 @@ app.use(cookieParser())
 app.use(express.json());
 app.use(
     cors({
-        origin:"study-notion-liard.vercel.app",
+        origin:"http://study-notion-liard.vercel.app",
         credentials:true
     })
 );
